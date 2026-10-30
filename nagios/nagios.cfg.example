@@ -1,0 +1,8 @@
+# EXAMPLE ONLY: merge these cfg_file entries into your existing nagios.cfg.
+# Adjust every path to match your installation; do not overwrite the live file blindly.
+cfg_file=/usr/local/nagios/etc/objects/commands.cfg
+cfg_file=/usr/local/nagios/etc/objects/contacts.cfg
+cfg_file=/usr/local/nagios/etc/objects/linux-web-server.cfg
+cfg_file=/usr/local/nagios/etc/objects/linux-db-server.cfg
+cfg_file=/usr/local/nagios/etc/objects/windows-client-1.cfg
+cfg_file=/usr/local/nagios/etc/objects/kubernetes.cfg

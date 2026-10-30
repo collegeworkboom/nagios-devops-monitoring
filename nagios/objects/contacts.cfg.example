@@ -1,0 +1,13 @@
+# Replace email and names with your own lab contact information.
+define contact {
+    contact_name                    nagiosadmin
+    use                             generic-contact
+    alias                           Nagios Administrator
+    email                           admin@example.invalid
+}
+
+define contactgroup {
+    contactgroup_name       admins
+    alias                   Nagios Administrators
+    members                 nagiosadmin
+}
