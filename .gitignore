@@ -1,0 +1,21 @@
+# Secrets and local overrides
+.env
+*.pem
+*.key
+secrets/
+private/
+*.credentials
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Local screenshot exports may contain IPs/hostnames; review before committing
